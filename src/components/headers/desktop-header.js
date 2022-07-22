@@ -52,7 +52,7 @@ const DesktopHeader = () => {
                             onClick={handleMenuOpen}
 
                             sx={{
-                                color: activePath === '/our-menu' ? 'secondary.main' : 'text.secondary',
+                                color: activePath === '/our-menus' ? 'secondary.main' : 'text.secondary',
                                 textTransform: 'capitalize',
 
                             }}
@@ -181,7 +181,7 @@ const DesktopHeader = () => {
                         </Link>
                     </MenuItem>
                     <MenuItem>
-                        <Link to="/plan-menu" style={{textDecoration: 'none'}}>
+                        <Link to="/our-meals" style={{textDecoration: 'none'}}>
                             <Button
                                 size="large"
                                 sx={{

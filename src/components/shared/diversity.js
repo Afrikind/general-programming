@@ -13,10 +13,10 @@ const Diversity = ({food}) => {
                     objectFit: 'cover',
                     objectPosition: 'center',
                     left: 0, right: 0, top: 0, bottom: 0,
-                    zIndex: -1
+                    zIndex: 100
                 }}/>
-            <CardContent sx={{width: '100%', height: '100%', display: 'flex', alignItems: 'flex-end', padding: 2}}>
-                <Stack mb={2} justifyContent="center" direction="row" spacing={2} alignItems="center">
+            <CardContent sx={{width: '100%', height: '100%', display: 'flex', alignItems: 'flex-end'}}>
+                <Stack sx={{padding: 2}} justifyContent="center" direction="row" spacing={2} alignItems="center">
                     <Typography variant="h5" sx={{color: 'white', fontWeight: 'bold'}}>
                         {food.name}
                     </Typography>

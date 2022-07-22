@@ -1,11 +1,5 @@
 import Layout from "../../components/layout/layout";
-import {Box, Container, Grid, Typography, useMediaQuery, useTheme} from "@mui/material";
-import {useDispatch, useSelector} from "react-redux";
-import {BOOKS_ACTION_CREATORS, selectBook} from "../../redux/features/books/book-slice";
-import {useEffect, useState} from "react";
-import {useLocation, useNavigate} from "react-router";
-import qs from "query-string";
-import {selectCategory} from "../../redux/features/categories/category-slice";
+import {Box, Container, Grid, Typography} from "@mui/material";
 import Overlay from "../../components/shared/overlay";
 import banner from "../../assets/images/banner.jpg";
 import {FOODBOX_DATA} from "../../utils/data";
@@ -23,7 +17,7 @@ const OurMealsPage = () => {
                         <Container>
                             <Grid container={true} spacing={4} alignItems="center">
                                 <Grid item={true} xs={12} md={6}>
-                                    <Typography variant="h5" sx={{color: 'white', mb: 2}}>
+                                    <Typography variant="h4" sx={{color: 'white', mb: 2}}>
                                         Cook up some mischief
                                     </Typography>
                                     <Typography variant="h6" sx={{color: 'white', mb: 2}}>
@@ -66,9 +60,9 @@ const OurMealsPage = () => {
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'cameroon').map((food, index) => {
+                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'south africa').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
@@ -84,7 +78,7 @@ const OurMealsPage = () => {
                         <Grid container={true} spacing={4}>
                             {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ivory coast').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
@@ -100,7 +94,7 @@ const OurMealsPage = () => {
                         <Grid container={true} spacing={4}>
                             {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ghana').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
@@ -116,7 +110,7 @@ const OurMealsPage = () => {
                         <Grid container={true} spacing={4}>
                             {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'nigeria').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )

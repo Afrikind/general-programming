@@ -14,8 +14,6 @@ import ResetPasswordPage from "./pages/authentication/reset-password-page";
 import ForgotPasswordPage from "./pages/authentication/forgot-password-page";
 import RegisterPage from "./pages/authentication/register-page";
 import RequireAuth from "./components/shared/require-auth";
-import UserChannelPage from "./pages/contact/user-channel-page";
-import NotificationsPage from "./pages/notifications/notifications-page";
 import CookbookPage from "./pages/menus/cookbook-page";
 import OurPlanPage from "./pages/plans/our-plan-page";
 import OurMealsPage from "./pages/menus/our-meals-page";
@@ -29,12 +27,10 @@ function App() {
             <Routes>
                 <Route element={<HomePage/>} exact={true} path="/"/>
                 <Route element={<CookbookPage/>} exact={true} path="/cookbook"/>
-                <Route element={<NotificationsPage/>} exact={true} path="/notifications"/>
-                <Route element={<UserChannelPage/>} exact={true} path="/channels/:username"/>
                 <Route element={<RequireAuth><ProfilePage/></RequireAuth>} exact={true} path="/profile"/>
                 <Route element={<RequireAuth><SettingsPage/></RequireAuth>} exact={true} path="/settings"/>
                 <Route element={<OurPlanPage/>} exact={true} path="/our-plan"/>
-                <Route element={<OurMealsPage/>} exact={true} path="/our-meal"/>
+                <Route element={<OurMealsPage/>} exact={true} path="/our-meals"/>
                 <Route element={<AboutPage/>} exact={true} path="/about-us"/>
                 <Route element={<RegisterPage/>} exact={true} path="/auth/register"/>
                 <Route element={<LoginPage/>} exact={true} path="/auth/login"/>
