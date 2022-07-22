@@ -18,11 +18,31 @@ import anthony from "./../assets/images/WhatsApp Image 2022-07-21 at 7.21.52 PM.
 import andy from "./../assets/images/WhatsApp Image 2022-07-21 at 9.34.03 AM.jpeg"
 import bervylyn from "./../assets/images/Bervelyn Sawyerr-Markwei (1).jpg"
 import anita from "./../assets/images/WhatsApp Image 2022-07-21 at 10.27.21 AM.jpeg"
-import raja from "./../assets/images/fuhrer.png"
+import raja from "./../assets/images/raja.jpg"
 import esther from "./../assets/images/WhatsApp Image 2022-07-21 at 10.45.05 AM.jpeg"
 import ivan from "./../assets/images/WhatsApp Image 2022-07-21 at 1.55.48 PM.jpeg"
 import claude from "./../assets/images/WhatsApp Image 2022-07-21 at 12.55.22 PM.jpeg"
 import prince from "./../assets/images/IMG-20220617-WA0030.jpg"
+
+
+import awiwo from "./../assets/images/Amiwo-BENIN.webp";
+import bototie from "./../assets/images/bobotie-SAwebp.webp";
+import boewors from "./../assets/images/boewors.SOUTH AFRICA.webp";
+import guru from "./../assets/images/Guru.ZIMBABWE.webp";
+
+
+import chickenGravy from "./../assets/images/liberian-chicken Gravy.jpg";
+import pudding from "./../assets/images/malva-pudding-SAwebp.webp";
+import mufushwa from "./../assets/images/Mufushwa.ZIMBABWE.webp";
+import mutakura from "./../assets/images/Mutakura.ZIMBABWE.webp";
+
+
+import ninouwi from "./../assets/images/Ninouwi . BENIN.jpeg.webp";
+import palavaSauce from "./../assets/images/palaver-sauce-stew. LIBERIA.jpg";
+import poundedYam from "./../assets/images/pounded-yam. LIBERIAjpg.jpeg";
+import wassawassa from "./../assets/images/WASSAWASSA.BENIN.webp";
+
+
 
 const WHY_FOODBOXX = [
     {
@@ -162,9 +182,83 @@ const TEAM = [
 
 const MEALS = [
     {
-        name: '',
-        image: '',
-        country: ''
+        name: 'Awiwo',
+        image: awiwo,
+        country: 'Benin'
+    }, {
+        name: 'Bototie',
+        image: bototie,
+        country: 'South Africa'
+    }, {
+        name: 'Boewors',
+        image: boewors,
+        country: 'South Africa'
+    }, {
+        name: 'Guru',
+        image: guru,
+        country: 'Zimbabwe'
+    },
+
+
+    {
+        name: 'Chicken Gravy',
+        image: chickenGravy,
+        country: 'Liberia'
+    }, {
+        name: 'Malva Pudding',
+        image: pudding,
+        country: 'South Africa'
+    }, {
+        name: 'Mufushwa',
+        image: mufushwa,
+        country: 'Zimbabwe'
+    }, {
+        name: 'Mutakura',
+        image: mutakura,
+        country: 'Zimbabwe'
+    },
+
+    {
+        name: 'Ninouwi',
+        image: ninouwi,
+        country: 'Benin'
+    }, {
+        name: 'Palaver Sauce Stew',
+        image: palavaSauce,
+        country: 'Liberia'
+    }, {
+        name: 'Pounded Yam',
+        image: poundedYam,
+        country: 'Liberia'
+    }, {
+        name: 'Wassawassa',
+        image: wassawassa,
+        country: 'Benin'
+    },
+    {
+        image: zimbabwe,
+        name: 'Elikem',
+        country: 'Zimbabwe'
+    },
+    {
+        image: nigeria,
+        name: 'Edwin Ayitey',
+        country: 'Nigeria'
+    },
+    {
+        image: ivoryCost,
+        name: 'Garba',
+        country: 'Ivory Coast'
+    },
+    {
+        image: fufu,
+        name: 'Fufu',
+        country: 'Ghana'
+    },
+    {
+        image: plantain,
+        name: 'Fried Plantain',
+        country: 'Ghana'
     }
 ]
 export const FOODBOX_DATA = {WHY_FOODBOXX, PROCESS, DIVERSITY, TEAM, MEALS};

@@ -123,13 +123,13 @@ const CookbookPage = () => {
                 <Container>
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Cameroonian Meals
+                            Liberian Meals
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'cameroon').map((food, index) => {
+                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'liberia').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
@@ -139,19 +139,52 @@ const CookbookPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Ivorian Meals
+                            South African Meals
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ivory coast').map((food, index) => {
+                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'south africa').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
                             })}
                         </Grid>
                     </Box>
+
+                    <Box sx={{mb: 2}}>
+                        <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
+                            Zimbabwean Meals
+                        </Typography>
+
+                        <Grid container={true} spacing={4}>
+                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'zimbabwe').map((food, index) => {
+                                return (
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
+                                        <Diversity food={food}/>
+                                    </Grid>
+                                )
+                            })}
+                        </Grid>
+                    </Box>
+
+                    <Box sx={{mb: 2}}>
+                        <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
+                            Benin Meals
+                        </Typography>
+
+                        <Grid container={true} spacing={4}>
+                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'benin').map((food, index) => {
+                                return (
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
+                                        <Diversity food={food}/>
+                                    </Grid>
+                                )
+                            })}
+                        </Grid>
+                    </Box>
+
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
@@ -161,13 +194,14 @@ const CookbookPage = () => {
                         <Grid container={true} spacing={4}>
                             {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ghana').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
                             })}
                         </Grid>
                     </Box>
+
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
@@ -177,7 +211,24 @@ const CookbookPage = () => {
                         <Grid container={true} spacing={4}>
                             {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'nigeria').map((food, index) => {
                                 return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={3}>
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
+                                        <Diversity food={food}/>
+                                    </Grid>
+                                )
+                            })}
+                        </Grid>
+                    </Box>
+
+
+                    <Box sx={{mb: 2}}>
+                        <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
+                            Ivorian Meals
+                        </Typography>
+
+                        <Grid container={true} spacing={4}>
+                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ivory coast').map((food, index) => {
+                                return (
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
                                     </Grid>
                                 )
