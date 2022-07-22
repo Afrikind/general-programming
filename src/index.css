@@ -7,7 +7,115 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-UltraLight.ttf"), url("/src/assets/fonts/gilroy/Gilroy-UltraLight.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-UltraLightItalic.ttf"), url("/src/assets/fonts/gilroy/Gilroy-UltraLightItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Thin.ttf"), url("/src/assets/fonts/gilroy/Gilroy-Thin.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-ThinItalic.ttf"), url("/src/assets/fonts/gilroy/Gilroy-ThinItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Light.ttf"), url("/src/assets/fonts/gilroy/Gilroy-Light.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-LightItalic.ttf"), url("/src/assets/fonts/gilroy/Gilroy-LightItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Regular.ttf"), url("/src/assets/fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-RegularItalic.ttf"), url("/src/assets/fonts/gilroy/Gilroy-RegularItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Medium.ttf"), url("/src/assets/fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-MediumItalic.ttf"), url("/src/assets/fonts/gilroy/Gilroy-MediumItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Bold.ttf"), url("/src/assets/fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Bold.ttf"), url("/src/assets/fonts/gilroy/Gilroy-BoldItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Black.ttf"), url("/src/assets/fonts/gilroy/Gilroy-Black.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-BlackItalic.ttf"), url("/src/assets/fonts/gilroy/Gilroy-BlackItalic.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
 }
