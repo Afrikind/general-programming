@@ -6,7 +6,7 @@ import {useSelector} from "react-redux";
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from "react-router-dom";
 import {selectAuth} from "../../redux/features/auth/auth-slice";
-import {FOODBOX_DATA} from "../../utils/data";
+import {AgroBrothers_DATA} from "../../utils/data";
 import Reason from "../../components/shared/reason";
 import Process from "../../components/shared/process";
 import pack from "./../../assets/images/kouji-tsuru-FG3EjROIvZ4-unsplash.jpg";
@@ -27,14 +27,14 @@ const HomePage = () => {
                     <Grid container={true} spacing={4} alignItems="center">
                         <Grid item={true} xs={12} md={6}>
                             <Typography variant="h3" sx={{color: 'white', mb: 2}}>
-                                Foodboxx
+                                AgroBrothers
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', mb: 2}}>
-                                Eat food, Stay healthy
+                                Be a Brother, Feed Families
                             </Typography>
                             <Typography variant="body1" sx={{color: 'white', mb: 6}}>
-                                Foodboxx is a meal kit delivery company that provides you will fresh, prepped, and
-                                pre-measured ingredients needed for a meal per the number of people to be fed.
+                                AgroBrothers is a fullStack Agric company that provides you will latest technoligical mechanisms and
+                                easy guidelines for Progressive Agriculture...
                             </Typography>
                             {authData && (<Link to="/our-menu" style={{textDecoration: 'none'}}>
                                 <Button
@@ -64,11 +64,11 @@ const HomePage = () => {
             <Container maxWidth="xl">
                 <Box>
                     <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                        Why Foodboxx
+                        Why AgroBrothers
                     </Typography>
 
                     <Grid container={true} spacing={4}>
-                        {FOODBOX_DATA.WHY_FOODBOXX.map((reason, index) => {
+                        {AgroBrothers_DATA.WHY_AgroBrothers.map((reason, index) => {
                             return (<Grid key={index} item={true} xs={12} md={6} lg={3}>
                                 <Reason reason={reason}/>
                             </Grid>)
@@ -89,7 +89,7 @@ const HomePage = () => {
                     </Typography>
 
                     <Grid container={true} spacing={4}>
-                        {FOODBOX_DATA.PROCESS.map((process, index) => {
+                        {AgroBrothers_DATA.PROCESS.map((process, index) => {
                             return (<Grid key={index} item={true} xs={12} md={4}>
                                 <Process process={process}/>
                             </Grid>)
@@ -117,7 +117,7 @@ const HomePage = () => {
         <Box sx={{minHeight: '50vh', backgroundColor: 'background.paper', pt: 5}}>
             <Typography align="center" variant="h5"
                         sx={{color: 'text.primary', fontWeight: 500, mb: 2, textTransform: 'uppercase', px: 4}}>
-                Discover a cheaper and healthy way to eat
+               Let's Discover a cheaper and healthy way to eat
             </Typography>
             <Box sx={{alignItems: 'center', display: 'flex', flexDirection: {xs: 'column', lg: 'row'}}}>
                 <Container sx={{flex: 1, py: 4}}>
@@ -127,22 +127,22 @@ const HomePage = () => {
                                 <Typography variant="h6" sx={{
                                     color: 'text.primary', fontWeight: 500, textTransform: 'capitalize'
                                 }}>
-                                    What is inside your delivery pack?
+                                    What is inside ?
                                 </Typography>
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    Easy-to-follow recipes with clear nutritional info
+                                    Easy-to-follow WebApp PlatForm
 
                                 </Typography>
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    High-quality ingredients sourced straight from the farm
+                                    High-quality Irrigation components
                                 </Typography>
 
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    Convenient meal kits that fit perfectly in the fridge
+                                    Convenient Control Process during Daily Farm practice
                                 </Typography>
 
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    A fun cooking experience that makes you feel unstoppable
+                                    Confort From Home that makes you feel unstoppable
                                 </Typography>
                             </Stack>
                         </Box>
@@ -164,11 +164,11 @@ const HomePage = () => {
             <Container>
                 <Typography align="center" variant="h5"
                             sx={{color: 'text.primary', fontWeight: 500, mb: 2, textTransform: 'uppercase', px: 4}}>
-                    A diversity of foods from African countries represented
+                    A Rich Approach To Harvest 
                 </Typography>
                 <Typography align="center" variant="body1"
                             sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                    Easy meals designed by professional chefs and nutritionists
+                    A support For The Economy
                 </Typography>
             </Container>
             <Box sx={{alignItems: 'center', display: 'flex', flexDirection: {xs: 'column', lg: 'row'}}}>
@@ -181,7 +181,7 @@ const HomePage = () => {
                         keyBoardControl={true}
                         pauseOnHover={true}
                         responsive={UTILS.responsive}>
-                        {FOODBOX_DATA.DIVERSITY.map(food => {
+                        {AgroBrothers_DATA.DIVERSITY.map(food => {
                             return (
 
                                 <Box key={food.name} sx={{mx: 1, height: '100%'}}>
@@ -203,7 +203,7 @@ const HomePage = () => {
                     </Typography>
 
                     <Grid container={true} spacing={4}>
-                        {FOODBOX_DATA.TEAM.map((team, index) => {
+                        {AgroBrothers_DATA.TEAM.map((team, index) => {
                             return (<Grid key={index} item={true} xs={12} md={6} lg={3}>
                                 <Team team={team}/>
                             </Grid>)
@@ -233,11 +233,10 @@ const HomePage = () => {
                                 About Us
                             </Typography>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                A service of delivery ingredient food
+                                A service of delivery If needed
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                Foodboxx aims to provide people with the opportunity to enjoy wholesome home-cooked
-                                meals with no planning, no shopping and no stress required.
+                               AgroBrothers provide All with the Required Benefits of all irrigation Components and A user Friendly Software
                             </Typography>
                             <Link to="/about-us" style={{textDecoration: 'none'}}>
                                 <Button

@@ -2,7 +2,7 @@ import Layout from "../../components/layout/layout";
 import {Box, Container, Grid, InputAdornment, OutlinedInput, Typography} from "@mui/material";
 import Overlay from "../../components/shared/overlay";
 import banner from "../../assets/images/banner.jpg";
-import {FOODBOX_DATA} from "../../utils/data";
+import {AgroBrothers_DATA} from "../../utils/data";
 import {UTILS} from "../../utils/utils";
 import Diversity from "../../components/shared/diversity";
 import {SearchOutlined} from "@mui/icons-material";
@@ -11,7 +11,7 @@ import {useFormik} from "formik";
 import * as yup from "yup";
 
 
-const CookbookPage = () => {
+const AgroBrosPage = () => {
 
     const formik = useFormik({
         initialValues: {
@@ -37,15 +37,13 @@ const CookbookPage = () => {
                             <Grid container={true} spacing={4} alignItems="center">
                                 <Grid item={true} xs={12} md={6}>
                                     <Typography variant="h5" sx={{color: 'white', mb: 2}}>
-                                        Cook up some mischief
+                                        Install 
                                     </Typography>
                                     <Typography variant="h6" sx={{color: 'white', mb: 2}}>
                                         Quench the hunger
                                     </Typography>
                                     <Typography variant="body1" sx={{color: 'white', mb: 6}}>
-                                        Foodboxx is a meal kit delivery company that provides you will fresh, prepped,
-                                        and pre-measured ingredients needed for a meal per the number of people to be
-                                        fed.
+                                        AgroBrothers Will Give You Quick and continous Algorithms To Quench All Agricultural Stress Levels Quickly
                                     </Typography>
                                 </Grid>
                             </Grid>
@@ -59,7 +57,7 @@ const CookbookPage = () => {
                     <Grid justifyContent="space-between" alignItems="center" container={true} spacing={4}>
                         <Grid item={true} xs={12} md="auto">
                             <Typography variant="h5" sx={{color: 'text.primary', fontWeight: 'bold', mb: 4}}>
-                                A Diversity of Tasty African Recipes for Dinner
+                                A Diversity of Brave Brothers For Positive Change
                             </Typography>
                         </Grid>
                         <Grid item={true} xs={12} md="auto">
@@ -99,22 +97,22 @@ const CookbookPage = () => {
             <Box sx={{backgroundColor: 'background.default', py: 5}}>
                 <Container sx={{py: 4}}>
                     <Typography variant="h5" sx={{color: 'text.primary', mb: 4}}>
-                        A Diversity of Tasty African Recipes for Dinner
+                        A Diversity of Classic Brothers For the Change
                     </Typography>
                     <Typography variant="body2" sx={{color: 'text.primary', mb: 4}}>
-                        Not sure what to make for dinner? Don't want a big hassle? It doesn't matter what you're in the
-                        mood for, you'll find the perfect easy-to-cook meal that you will leave you smiling. Discover
-                        more than 2, 500 delicious dinner recipes in our recipe collection
+                        Not sure what to make With Your Land ? Don't want a Time Spent away from Office? It doesn't matter what you're in
+                        for or from, you'll find the perfect easy-to-get System that you will leave you smiling. Discover
+                        more than enough in our collection
                     </Typography>
                 </Container>
 
                 <Container sx={{py: 4}}>
                     <Typography variant="h5" sx={{color: 'text.primary', mb: 4}}>
-                        Our Popular Recipes
+                        Our collection
                     </Typography>
                     <Typography variant="body2" sx={{color: 'text.primary', mb: 4}}>
-                        Check out some of our most popular recipes you can enjoy time and time again. After all, our
-                        discerning eaters consider these their favorite meals and labeled them as certified delicious.
+                        Check out some of our collections you can enjoy time and time again. After all, our
+                        discerning Users consider it their favourite and place it certified .
                     </Typography>
                 </Container>
             </Box>
@@ -123,11 +121,11 @@ const CookbookPage = () => {
                 <Container>
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Liberian Meals
+                            Liberia
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'liberia').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'liberia').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -139,11 +137,11 @@ const CookbookPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            South African Meals
+                            South Africa
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'south africa').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'south africa').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -155,11 +153,11 @@ const CookbookPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Zimbabwean Meals
+                            Zimbabwe
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'zimbabwe').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'zimbabwe').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -171,28 +169,11 @@ const CookbookPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Benin Meals
+                            Niger
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'benin').map((food, index) => {
-                                return (
-                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
-                                        <Diversity food={food}/>
-                                    </Grid>
-                                )
-                            })}
-                        </Grid>
-                    </Box>
-
-
-                    <Box sx={{mb: 2}}>
-                        <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Ghanaian Meals
-                        </Typography>
-
-                        <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ghana').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'Niger').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -205,11 +186,11 @@ const CookbookPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Nigerian Meals
+                            Ghana
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'nigeria').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'ghana').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -222,11 +203,28 @@ const CookbookPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Ivorian Meals
+                            Nigeria
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ivory coast').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'nigeria').map((food, index) => {
+                                return (
+                                    <Grid key={index} item={true} xs={12} md={6} lg={4}>
+                                        <Diversity food={food}/>
+                                    </Grid>
+                                )
+                            })}
+                        </Grid>
+                    </Box>
+
+
+                    <Box sx={{mb: 2}}>
+                        <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
+                            Ivory Coast
+                        </Typography>
+
+                        <Grid container={true} spacing={4}>
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'ivory coast').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -241,4 +239,4 @@ const CookbookPage = () => {
     )
 }
 
-export default CookbookPage;
+export default AgroBrosPage;

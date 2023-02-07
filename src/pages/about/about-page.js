@@ -5,7 +5,7 @@ import React from "react";
 import meals from "../../assets/images/img.png";
 import sourcing from "../../assets/images/img_1.png";
 import packaging from "../../assets/images/img_2.png";
-import {FOODBOX_DATA} from "../../utils/data";
+import {AgroBrothers_DATA} from "../../utils/data";
 import TeamListItem from "../../components/shared/team-list";
 import Team from "../../components/shared/team";
 
@@ -20,12 +20,10 @@ const AboutPage = () => {
                     <Grid container={true} spacing={4} alignItems="center">
                         <Grid item={true} xs={12} md={6}>
                             <Typography variant="h3" sx={{color: 'white', mb: 2}}>
-                                About Foodboxx
+                                About AgroBrothers
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', mb: 6}}>
-                                Foodboxx aims to provide people with the opportunity to enjoy wholesome
-                                home-cooked
-                                meals with no planning, no shopping and no stress required.
+                            AgroBrothers Will Give You Quick and continous Algorithms To Quench All Agricultural Stress Levels Quickly
                             </Typography>
                         </Grid>
                     </Grid>
@@ -47,11 +45,7 @@ const AboutPage = () => {
                     align="center"
                     variant="body1"
                     sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                    Foodboxx aims to provide people
-                    with the opportunity to enjoy
-                    wholesome home-cooked meals
-                    with no planning, no shopping and
-                    no stress required
+                    AgroBrothers Will Give You Quick and continous Algorithms To Quench All Agricultural Stress Levels Quickly
                 </Typography>
             </Container>
         </Box>
@@ -75,10 +69,10 @@ const AboutPage = () => {
                     <Box>
                         <Stack direction="column" spacing={2}>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                Meals from Africa
+                                technology from Africa
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                We are providing meals from Africa. So you can enjoy diverse African food straight
+                                We are producing Agric Technologies Here in Africa. So you can enjoy diverse African food straight
                                 from the confort of your home.
                             </Typography>
                         </Stack>
@@ -95,8 +89,8 @@ const AboutPage = () => {
                     align="center"
                     variant="body1"
                     sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                    Eat More Sustainably with Africa's #1
-                    Meal Kit.
+                     More Sustainably with Africa's #1
+                    Agric system
                 </Typography>
             </Container>
         </Box>
@@ -130,11 +124,10 @@ const AboutPage = () => {
                     <Box>
                         <Stack direction="column" spacing={2}>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                Meals from Africa
+                                NO Poverty
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                We are providing meals from Africa. So you can enjoy diverse African food straight
-                                from the conform of your home.
+                                We are providing Tech from Africa, Thus Employing The People
                             </Typography>
                         </Stack>
                     </Box>
@@ -148,12 +141,12 @@ const AboutPage = () => {
                     <Box>
                         <Stack direction="column" spacing={2}>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                SMARTER PACKAGING
+                                Climate Change
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
                                 Eco-friendly boxes
-                                recyclable waste for boxes
-                                recyclable waste for recipe card
+                                recyclable water for Irrigation
+                                Eco Friendly 
                             </Typography>
                         </Stack>
                     </Box>
@@ -183,11 +176,11 @@ const AboutPage = () => {
                 <Divider variant="fullWidth" sx={{my: 4}} light={true}/>
 
                 <Grid container={true} spacing={2}>
-                    {matches ? (FOODBOX_DATA.TEAM.map(team => {
+                    {matches ? (AgroBrothers_DATA.TEAM.map(team => {
                         return (<Grid item={true} key={team._id} xs={12}>
                             <Team team={team}/>
                         </Grid>)
-                    })) : (FOODBOX_DATA.TEAM.map(team => {
+                    })) : (AgroBrothers_DATA.TEAM.map(team => {
                         return (<Grid item={true} key={team._id} xs={12}>
                             <TeamListItem team={team}/>
                         </Grid>)

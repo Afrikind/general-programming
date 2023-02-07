@@ -95,7 +95,7 @@ const DesktopFooter = () => {
                                     textTransform: 'capitalize',
                                     justifyContent: 'flex-start'
                                 }}>
-                                    FoodBox Group
+                                    AgroBrothers Group
                                 </Button>
                             </Link>
 

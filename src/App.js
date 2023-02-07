@@ -14,9 +14,9 @@ import ResetPasswordPage from "./pages/authentication/reset-password-page";
 import ForgotPasswordPage from "./pages/authentication/forgot-password-page";
 import RegisterPage from "./pages/authentication/register-page";
 import RequireAuth from "./components/shared/require-auth";
-import CookbookPage from "./pages/menus/cookbook-page";
+import AgrobookPage from "./pages/menus/AgroBros-page";
 import OurPlanPage from "./pages/plans/our-plan-page";
-import OurMealsPage from "./pages/menus/our-meals-page";
+import OurMealsPage from "./pages/menus/our-Services-page";
 
 function App() {
     const {themeVariant} = useSelector(selectUI);

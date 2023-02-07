@@ -38,7 +38,7 @@ const MobileHeader = () => {
                         <Link to="/" style={{textDecoration: 'none'}}>
                             <Typography
                                 sx={{color: 'secondary.main', fontWeight: 'bold'}}
-                                variant="body1">Foodboxx</Typography>
+                                variant="body1">AgroBrothers</Typography>
                         </Link>
                     </Box>
                 </Stack>

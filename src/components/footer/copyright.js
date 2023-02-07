@@ -10,7 +10,7 @@ const Copyright = () => {
             <Grid item={true} xs={12} md={3}>
             <Link style={{textDecoration: 'none'}} to="/terms">
             <Typography variant="body2" align="center" sx={{color: 'text.secondary'}}>
-                &copy; Foodboxx 2022
+                &copy; AgroBrothers 2023
                 </Typography>
             </Link>
             </Grid>

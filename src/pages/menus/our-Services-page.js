@@ -2,12 +2,11 @@ import Layout from "../../components/layout/layout";
 import {Box, Container, Grid, Typography} from "@mui/material";
 import Overlay from "../../components/shared/overlay";
 import banner from "../../assets/images/banner.jpg";
-import {FOODBOX_DATA} from "../../utils/data";
+import {AgroBrothers_DATA} from "../../utils/data";
 import {UTILS} from "../../utils/utils";
 import Diversity from "../../components/shared/diversity";
 
-
-const OurMealsPage = () => {
+const AgroBrosPage = () => {
 
     return (
         <Layout>
@@ -18,15 +17,13 @@ const OurMealsPage = () => {
                             <Grid container={true} spacing={4} alignItems="center">
                                 <Grid item={true} xs={12} md={6}>
                                     <Typography variant="h4" sx={{color: 'white', mb: 2}}>
-                                        Cook up some mischief
+                                        Install
                                     </Typography>
                                     <Typography variant="h6" sx={{color: 'white', mb: 2}}>
                                         Quench the hunger
                                     </Typography>
                                     <Typography variant="body1" sx={{color: 'white', mb: 6}}>
-                                        Foodboxx is a meal kit delivery company that provides you will fresh, prepped,
-                                        and pre-measured ingredients needed for a meal per the number of people to be
-                                        fed.
+                                    AgroBrothers Will Give You Quick and continous Algorithms To Quench All Stress Levels Quickly
                                     </Typography>
                                 </Grid>
                             </Grid>
@@ -56,11 +53,11 @@ const OurMealsPage = () => {
                 <Container>
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Cameroonian Meals
+                            Alright
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'south africa').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'south africa').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -72,11 +69,11 @@ const OurMealsPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Ivorian Meals
+                            Ivory coast
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ivory coast').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'ivory coast').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -92,7 +89,7 @@ const OurMealsPage = () => {
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'ghana').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'ghana').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -104,11 +101,11 @@ const OurMealsPage = () => {
 
                     <Box sx={{mb: 2}}>
                         <Typography sx={{color: 'text.primary', mb: 2}} variant="h5" align="center">
-                            Nigerian Meals
+                            Nigeria
                         </Typography>
 
                         <Grid container={true} spacing={4}>
-                            {UTILS.filterFoodByCountry(FOODBOX_DATA.MEALS, 'nigeria').map((food, index) => {
+                            {UTILS.filterAgroByCountry(AgroBrothers_DATA.MEALS, 'nigeria').map((food, index) => {
                                 return (
                                     <Grid key={index} item={true} xs={12} md={6} lg={4}>
                                         <Diversity food={food}/>
@@ -123,4 +120,4 @@ const OurMealsPage = () => {
     )
 }
 
-export default OurMealsPage;
+export default OurPlanPage;

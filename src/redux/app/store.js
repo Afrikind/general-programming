@@ -9,17 +9,17 @@ import likeReducer from "../features/likes/like-slice";
 import {CONSTANTS} from "../../utils/constants";
 
 
-const themeVariant = localStorage.getItem(CONSTANTS.FOODBOX_THEME_VARIANT) ?
-    JSON.parse(localStorage.getItem(CONSTANTS.FOODBOX_THEME_VARIANT)) : 'dark';
+const themeVariant = localStorage.getItem(CONSTANTS.AgroBrothers_THEME_VARIANT) ?
+    JSON.parse(localStorage.getItem(CONSTANTS.AgroBrothers_THEME_VARIANT)) : 'dark';
 
-const viewMode = localStorage.getItem(CONSTANTS.FOODBOX_VIEW_MODE) ?
-    JSON.parse(localStorage.getItem(CONSTANTS.FOODBOX_VIEW_MODE)) : 'grid';
+const viewMode = localStorage.getItem(CONSTANTS.AgroBrothers_VIEW_MODE) ?
+    JSON.parse(localStorage.getItem(CONSTANTS.AgroBrothers_VIEW_MODE)) : 'grid';
 
-const token = localStorage.getItem(CONSTANTS.FOODBOX_AUTH_TOKEN) ?
-    JSON.parse(localStorage.getItem(CONSTANTS.FOODBOX_AUTH_TOKEN)) : null;
+const token = localStorage.getItem(CONSTANTS.AgroBrothers_AUTH_TOKEN) ?
+    JSON.parse(localStorage.getItem(CONSTANTS.AgroBrothers_AUTH_TOKEN)) : null;
 
-const authData = localStorage.getItem(CONSTANTS.FOODBOX_AUTH_DATA) ?
-    JSON.parse(localStorage.getItem(CONSTANTS.FOODBOX_AUTH_DATA)) : null;
+const authData = localStorage.getItem(CONSTANTS.AgroBrothers_AUTH_DATA) ?
+    JSON.parse(localStorage.getItem(CONSTANTS.AgroBrothers_AUTH_DATA)) : null;
 
 
 const store = configureStore({
