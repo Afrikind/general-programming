@@ -30,7 +30,7 @@ function App() {
                 <Route element={<RequireAuth><ProfilePage/></RequireAuth>} exact={true} path="/profile"/>
                 <Route element={<RequireAuth><SettingsPage/></RequireAuth>} exact={true} path="/settings"/>
                 <Route element={<OurPlanPage/>} exact={true} path="/our-plan"/>
-                <Route element={<OurServicesPage/>} exact={true} path="/our-meals"/>
+                <Route element={<OurServicesPage/>} exact={true} path="/our-Services"/>
                 <Route element={<AboutPage/>} exact={true} path="/about-us"/>
                 <Route element={<RegisterPage/>} exact={true} path="/auth/register"/>
                 <Route element={<LoginPage/>} exact={true} path="/auth/login"/>

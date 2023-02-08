@@ -1,7 +1,7 @@
 import Layout from "../../components/layout/layout";
 import {Box, Button, CardMedia, Container, Grid, Stack, Typography} from "@mui/material";
 import Overlay from "../../components/shared/overlay";
-import banner from "./../../assets/images/banner.jpg";
+import banner from "./../../assets/images/download.jpg";
 import {useSelector} from "react-redux";
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from "react-router-dom";
@@ -9,12 +9,12 @@ import {selectAuth} from "../../redux/features/auth/auth-slice";
 import {AgroBrothers_DATA} from "../../utils/data";
 import Reason from "../../components/shared/reason";
 import Process from "../../components/shared/process";
-import pack from "./../../assets/images/kouji-tsuru-FG3EjROIvZ4-unsplash.jpg";
+import pack from "./../../assets/images/2023-02-06.png";
 import Carousel from "react-multi-carousel";
 import {UTILS} from "../../utils/utils";
 import Diversity from "../../components/shared/diversity";
 import Team from "../../components/shared/team";
-import about from "./../../assets/images/about-us.PNG";
+import about from "./../../assets/images/logo.png";
 
 const HomePage = () => {
 
@@ -33,7 +33,7 @@ const HomePage = () => {
                                 Be a Brother, Feed Families
                             </Typography>
                             <Typography variant="body1" sx={{color: 'white', mb: 6}}>
-                                AgroBrothers is a fullStack Agric company that provides you will latest technoligical mechanisms and
+                                AgroBrothers is a fullStack Agric company that provides you with latest technoligical mechanisms and
                                 easy guidelines for Progressive Agriculture...
                             </Typography>
                             {authData && (<Link to="/our-menu" style={{textDecoration: 'none'}}>

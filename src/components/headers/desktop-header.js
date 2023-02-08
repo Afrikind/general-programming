@@ -176,7 +176,7 @@ const DesktopHeader = () => {
                                 }}
                                 fullWidth={true}
                                 variant="text">
-                                Our Cookbook
+                                 Agrobook
                             </Button>
                         </Link>
                     </MenuItem>
@@ -191,7 +191,7 @@ const DesktopHeader = () => {
                                 }}
                                 fullWidth={true}
                                 variant="text">
-                                Our Plan Menu
+                                 Plan Menu
                             </Button>
                         </Link>
                     </MenuItem>

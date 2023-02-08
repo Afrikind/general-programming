@@ -1,24 +1,24 @@
-import diverse from "./../assets/images/Eco shopping-pana.png";
-import healthy from "./../assets/images/Watermelon-amico.png";
-import chef from "./../assets/images/Chef-pana.png";
-import family from "./../assets/images/Eating together-cuate.png";
+import diverse from "./../assets/images/downloa.jpg";
+import healthy from "./../assets/images/donload.jpg";
+import chef from "./../assets/images/images.jpg";
+import family from "./../assets/images/imajes.jpg";
 
 import step1 from "./../assets/images/step1-removebg-preview.png";
 import step2 from "./../assets/images/step3-removebg-preview.png";
 import step3 from "./../assets/images/step4-removebg-preview.png";
 
-import zimbabwe from "./../assets/images/Zimbabwe food 5.webp"
-import nigeria from "./../assets/images/nigerian food 2.jfif"
-import ivoryCost from "./../assets/images/garba ivory coast.jfif"
-import fufu from "./../assets/images/eb9259070d8c528d50722a51bd7d54ea--ivoire-york.jpg"
-import plantain from "./../assets/images/Plantain Fritters _ TOP 10 Traditional Gabonese Foods you MUST try_ GABON.jfif"
+import zimbabwe from "./../assets/images/2023-02-06.png"
+import ivoryCost from "./../assets/images/logo192.png"
+import fufu from "./../assets/images/logo.png"
+import nigeria from "./../assets/images/2023-02-06.png"
+import plantain from "./../assets/images/apple-touch-icon.png"
 
-import fuhrer from "./../assets/images/WhatsApp Image 2022-07-21 at 11.30.33 PM.jpeg"
-import bervylyn from "./../assets/images/Bervelyn Sawyerr-Markwei (1).jpg"
-import anita from "./../assets/images/WhatsApp Image 2022-07-21 at 10.27.21 AM.jpeg"
+import fuhrer from "./../assets/images/fuhrer.jpeg"
+import bervylyn from "./../assets/images/Manuel.jfif"
+import anita from "./../assets/images/Zeus.jpeg"
 import raja from "./../assets/images/raja.jpg"
 
-import awiwo from "./../assets/images/Amiwo-BENIN.webp";
+import awiwo from "./../assets/images/imajes.jpg";
 import bototie from "./../assets/images/bobotie-SAwebp.webp";
 import boewors from "./../assets/images/boewors.SOUTH AFRICA.webp";
 import guru from "./../assets/images/Guru.ZIMBABWE.webp";

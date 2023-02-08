@@ -1,7 +1,7 @@
 import Layout from "../../components/layout/layout";
 import {Box, Container, Grid, InputAdornment, OutlinedInput, Typography} from "@mui/material";
 import Overlay from "../../components/shared/overlay";
-import banner from "../../assets/images/banner.jpg";
+import banner from "../../assets/images/download.jpg";
 import {AgroBrothers_DATA} from "../../utils/data";
 import {UTILS} from "../../utils/utils";
 import Diversity from "../../components/shared/diversity";
