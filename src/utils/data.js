@@ -16,7 +16,7 @@ import plantain from "./../assets/images/apple-touch-icon.png"
 import fuhrer from "./../assets/images/fuhrer.jpeg"
 import bervylyn from "./../assets/images/Manuel.png"
 import anita from "./../assets/images/Zeus.jpeg"
-import raja from "./../assets/images/raja.jpg"
+import raja from ""
 
 import awiwo from "./../assets/images/imajes.jpg";
 import bototie from "./../assets/images/bobotie-SAwebp.webp";
