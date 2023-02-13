@@ -117,7 +117,7 @@ const TEAM = [
     },
     {
         image: bervylyn,
-        name: 'Mohamed chamsydym',
+        name: 'Mohamed chamsydine',
         position: 'Team Business Analyst',
         description: 'Mr Mohammed is a Dedicated Muslim and Philosophist, He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
     },
