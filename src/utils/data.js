@@ -127,12 +127,12 @@ const TEAM = [
         position: 'Team Product Manager',
         description: "Mr Emmanuel Ileogben is A Fully Dedicated Christian and is AgrBrothers Products Manager And is An Expert Electronics And Robotics Engineer "
     },
-//     {
-//         image: anita,
-//         name: 'Manuel Balinga',
-//         position: 'Business Analyst',
-//         description: "Mr Balinga is A Robotics Expert And A Visionary, He Hails From The Ivory coast and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining"
-//     },
+    {
+        image: anita,
+        name: 'Manuel Balinga',
+        position: 'Business Analyst',
+        description: "Mr Balinga is A Robotics Expert And A Visionary, He Hails From The Ivory coast and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining"
+    },
     ];
 
 const MEALS = [
