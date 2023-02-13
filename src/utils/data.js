@@ -147,7 +147,7 @@ const MEALS = [
     }, {
         name: 'Boewors',
         image: boewors,
-        country: 'South Africa'
+        country: 'Zimbabwe'
     }, {
         name: 'Guru',
         image: guru,
