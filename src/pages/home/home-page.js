@@ -142,7 +142,7 @@ const HomePage = () => {
                                 </Typography>
 
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    Confort From Home that makes you feel unstoppable
+                                    Comfort From Home that makes you feel unstoppable
                                 </Typography>
                             </Stack>
                         </Box>
