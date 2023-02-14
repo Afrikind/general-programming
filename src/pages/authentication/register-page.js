@@ -93,6 +93,7 @@ const RegisterPage = () => {
                 display: 'flex',
                 minHeight: '100vh',
             }}>
+
             <Box
                 sx={{
                     display: {xs: 'none', lg: 'block'},
@@ -100,6 +101,7 @@ const RegisterPage = () => {
                     maxHeight: '100vh',
                     backgroundColor: 'background.default'
                 }}>
+                    
                 <Stack justifyContent="center" alignItems="center" sx={{height: '100%'}}>
                     <img
                         style={{

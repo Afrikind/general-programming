@@ -33,7 +33,7 @@ const HomePage = () => {
                                 Be a Brother, Feed Families
                             </Typography>
                             <Typography variant="body1" sx={{color: 'white', mb: 6}}>
-                                AgroBrothers is a fullStack Agric company that provides you with latest technoligical mechanisms and
+                                AgroBrothers is a fullStack Agric company that provides you with latest technoligy and
                                 easy guidelines for Progressive Agriculture...
                             </Typography>
                             {authData && (<Link to="/our-menu" style={{textDecoration: 'none'}}>

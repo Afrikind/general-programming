@@ -119,13 +119,13 @@ const TEAM = [
         image: bervylyn,
         name: 'Mohamed chamsydine',
         position: 'Team Business Analyst',
-        description: 'Mr Mohammed is a Dedicated Muslim and Philosophist, He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
+        description: 'Mr Mohammed is a Dedicated Muslim and Philosophist that has passion for discovering possibilities and inventions , He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
     },
     {
         image: raja,
         name: 'Emmanuel Ileogben',
         position: 'Team Product Manager',
-        description: "Mr Emmanuel Ileogben is A Fully Dedicated Christian and is AgrBrothers Products Manager And is An Expert Electronics And Robotics Engineer "
+        description: "Emmanuel Ileogben is a dedicated, renowned, expert electrical and electronics engineer. He has great interest in reducing societal electrical power usage by bringing sustainability and implementing new technologies to further advance power generation. He is the product lead for this project."
     },
     {
         image: anita,

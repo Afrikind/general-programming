@@ -7,7 +7,7 @@ const initialState = {
     authMessage: null,
     authError: null,
     token: null,
-    authData: null
+    authData: true
 };
 
 const login = createAsyncThunk(
