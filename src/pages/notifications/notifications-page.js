@@ -41,7 +41,6 @@ const NotificationsPage = () => {
             <Button
                 sx={{
                     textTransform: 'capitalize', width: {xs: '100%', md: '40%'},
-
                 }}
                 variant="contained"
                 disableElevation={true}
