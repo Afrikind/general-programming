@@ -1,6 +1,5 @@
 import Layout from "../../components/layout/layout";
 import {Container, Typography} from "@mui/material";
-import OurServicesPage from "../menus/our-Services-page";
 
 const LikedTrailersPage = () => {
     return (

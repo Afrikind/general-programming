@@ -4,7 +4,11 @@ import {Container, Typography} from "@mui/material";
 const NotificationsPage = () => {
     return (
         <Layout>
+            Overlay
+            children={<Box sx={{height: '100%', display: 'flex', alignItems: 'center'}}>
             <Container>
+            <Grid container={true} spacing={4} alignItems="center">
+                        <Grid item={true} xs={12} md={6}>
                 <Typography variant="h2" align="center">
                     The current weather is  31*c
                 </Typography>
@@ -45,7 +49,10 @@ const NotificationsPage = () => {
                 color="secondary">
                 sign-Out
             </Button>
-            </Container>
+            </Grid>
+            </Grid>
+                </Container>
+                </Box>}
         </Layout>
     )
 }
