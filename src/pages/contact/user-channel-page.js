@@ -26,7 +26,7 @@ const UserChannelPage = () => {
                                 AgroBrothers is a fullStack Agric company that provides you with latest technoligy and
                                 easy guidelines for Progressive Agriculture...
                             </Typography>
-                            {authData && (<Link to="/our-menu" style={{ textDecoration: 'none' }}>
+                            {authData && (<Link to="/our-Services" style={{ textDecoration: 'none' }}>
                                 <Button
                                     sx={{
                                         textTransform: 'capitalize', width: { xs: '100%', md: '40%' },

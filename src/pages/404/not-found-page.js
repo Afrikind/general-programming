@@ -28,7 +28,7 @@ const NotFoundPage = () => {
                         Page not found
                     </Typography>
                     <Typography sx={{color: 'text.secondary', mb: 4}} align="center" variant="body1">
-                        The page you requested for could not be found on the server
+                        Hello subscriber stay tuned with AgroBrothers and connect to home for continued services
                     </Typography>
                     <Grid container={true} justifyContent="center">
                         <Grid item={true} xs={12} md="auto">

@@ -4,7 +4,7 @@ import {CONSTANTS} from "../../../utils/constants";
 
 const initialState = {
     authLoading: false,
-    authMessage: null,
+    authMessage: true,
     authError: null,
     token: null,
     authData: true
