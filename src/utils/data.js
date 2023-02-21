@@ -9,7 +9,7 @@ import step3 from "./../assets/images/step4-removebg-preview.png";
 
 import zimbabwe from "./../assets/images/2023-02-06.png"
 import ivoryCost from "./../assets/images/logo192.png"
-import fufu from "./../assets/images/LOgo.jpeg"
+import fufu from "./../assets/images/logo.png"
 import nigeria from "./../assets/images/2023-02-06.png"
 import plantain from "./../assets/images/apple-touch-icon.png"
 
