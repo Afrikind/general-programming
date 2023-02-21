@@ -12,7 +12,7 @@ import {
     Typography
 } from "@mui/material";
 import {Link} from "react-router-dom";
-import logo from "./../../assets/images/logo.png";
+import logo from "./../../assets/images/LOgo.jpeg";
 import * as yup from "yup";
 import {useFormik} from "formik";
 import {Call, Facebook, Instagram, LinkedIn, MailOutline, WhatsApp, YouTube} from "@mui/icons-material";
