@@ -14,7 +14,7 @@ import Carousel from "react-multi-carousel";
 import {UTILS} from "../../utils/utils";
 import Diversity from "../../components/shared/diversity";
 import Team from "../../components/shared/team";
-import about from "./../../assets/images/logo.png";
+import about from "./../../assets/images/LOgo.jpeg";
 
 const HomePage = () => {
 
