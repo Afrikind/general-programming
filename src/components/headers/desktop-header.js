@@ -1,5 +1,5 @@
 import {Badge, Button, Container, Divider, Menu, MenuItem, Stack, Toolbar} from "@mui/material";
-import logo from "./../../assets/images/logo.png";
+import logo from "./../../assets/images/LOgo.jpeg";
 import {useDispatch, useSelector} from "react-redux";
 import {selectAuth} from "../../redux/features/auth/auth-slice";
 import {DarkMode, Edit, LightMode, LoginOutlined, Logout, Notifications} from "@mui/icons-material";
