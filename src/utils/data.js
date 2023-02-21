@@ -39,31 +39,31 @@ import wassawassa from "./../assets/images/WASSAWASSA.BENIN.webp";
 
 const WHY_AgroBrothers = [
     {
-        title: 'Diverse food',
+        title: 'Direct Negotiations',
         image: diverse,
-        description: 'Get to Grow, eat and enjoy food from different African countries.'
+        description: 'AgroBrothers Automated system is currently in direct negotiations with farmers where payplan services are welcomed.'
     },
     {
-        title: 'Healthy Lifestyle',
+        title: 'Long Time Guarantee',
         image: healthy,
-        description: 'Be safe to live any healthy lifestyle you like because AgroBrothers has got you covered.'
+        description: 'AgroBrothers Guarantee Long time Quality in services with a signed up agreement. Here Users are given time range for trust '
     },
     {
         title: 'Awake your inner Wisdom',
         image: chef,
-        description: 'Learn to Utilise vacant land space.'
+        description: 'With the availability of vacant land spaces You get to utilize this avenue and maximize food supply accross the globe.'
     },
     {
-        title: 'Family friendly',
+        title: 'Mobility',
         image: family,
-        description: 'Made with All age Accessabilities.'
+        description: 'As technology mobile automated, It becomes easy to be used anywhere with easy-to-use guides Through our mobile application.'
     }
 ]
 
 
 const PROCESS = [
     {
-        title: 'Pick Up Options',
+        title: 'How To Get',
         image: step1,
         description: 'Need Delivery? '
     },
@@ -75,7 +75,7 @@ const PROCESS = [
     {
         title: 'Get Support',
         image: step3,
-        description: 'Welcome... Any Help, You Can Always Reach Us...'
+        description: 'You Can Always Reach Us by signing up (Its Free)... '
     }
 ]
 
@@ -113,7 +113,7 @@ const TEAM = [
         image: fuhrer,
         name: 'Anthony Madukaku',
         position: 'Team Lead, Full Stack Developer',
-        description: "Mr Anthony Madukaku has 5 years of total experience with REACT JS for frontend, NodeJS and Express for Server-side applications, React Native for building mobile apps, and Go Lang and Fibre framework for building backend servers. He is an experienced UI developer trained in HTML, CSS, JavaScript, Typescript, and Material Design. He developed a crowdfunding app using React Native, NodeJS, and MongoDB, and an E-commerce application that enabled vendors to sell their products and consumers to buy products. He also built a hospital management system that enabled hospitals to manage their patients and doctors."
+        description: "Mr Anthony Madukaku has 2 years of total experience with REACT JS for frontend, NodeJS and Express for Server-side applications, trained in HTML, CSS, JavaScript, Typescript, and Material Design. He developed a crowdfunding app using React Native and an E-commerce application that enabled vendors to sell their products. He also built a hospital management system that enabled hospitals to manage their patients"
     },
     {
         image: bervylyn,
