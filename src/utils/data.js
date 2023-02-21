@@ -3,8 +3,8 @@ import healthy from "./../assets/images/donload.jpg";
 import chef from "./../assets/images/images.jpg";
 import family from "./../assets/images/imajes.jpg";
 
-import step1 from "./../assets/images/step1-removebg-preview.png";
-import step2 from "./../assets/images/step3-removebg-preview.png";
+import step1 from "./../assets/images/step4-removebg-preview.png";
+import step2 from "./../assets/images/step2-removebg-preview.png";
 import step3 from "./../assets/images/step4-removebg-preview.png";
 
 import zimbabwe from "./../assets/images/2023-02-06.png"
