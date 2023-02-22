@@ -88,7 +88,7 @@ const AboutPage = () => {
                     align="center"
                     variant="body1"
                     sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                  We are #1  Agric system: We Recall To Excellence through some of the Goals enlisted Below...
+                  We are #1  In What We Do
                 </Typography>
             </Container>
         </Box>
