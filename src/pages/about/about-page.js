@@ -23,7 +23,7 @@ const AboutPage = () => {
                                 About AgroBrothers
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', mb: 6}}>
-                            AgroBrothers is a company that Posesses The Automated Irrigation System that Deletes doubt in crop yeild thereby increasing the societies economy and innovating change for mankind
+                            AgroBrothers is a company that Posesses The Automated Irrigation System, Through this we improve crop production thereby increasing the societies economy and innovating activities such as food production for the benefit of mankind
                             </Typography>
                         </Grid>
                     </Grid>
@@ -88,7 +88,7 @@ const AboutPage = () => {
                     align="center"
                     variant="body1"
                     sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                   Africa's #1  Agric system: We Recall To Excellence and Are Up to The first
+                  We are #1  Agric system: We Recall To Excellence through some of the Goals enlisted Below...
                 </Typography>
             </Container>
         </Box>
@@ -125,7 +125,7 @@ const AboutPage = () => {
                                 NO Poverty
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                We are providing Tech from Africa, Hereby Employing The People
+                                We are providing Technolgy in Africa, Hereby Employing The People, We buy our component and enlist low income earners with a payplan through this increasing employment...
                             </Typography>
                         </Stack>
                     </Box>
@@ -142,7 +142,7 @@ const AboutPage = () => {
                                 Innovation  And Sustainable Community
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                Climate monitoring around Our Community Utilizing Water Through Recycling
+                                 Utilizing Water Through Recycling
                             </Typography>
                         </Stack>
                     </Box>
