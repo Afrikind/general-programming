@@ -23,7 +23,7 @@ const AboutPage = () => {
                                 About AgroBrothers
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', mb: 6}}>
-                            AgroBrothers Will Give You Quick and continous Algorithms To Quench All Agricultural Stress Levels Quickly
+                            AgroBrothers is a company that Posesses The Automated Irrigation System that Eases doubt in crop yeild thereby increasing the societies economy and innovating change for mankind
                             </Typography>
                         </Grid>
                     </Grid>
@@ -39,13 +39,13 @@ const AboutPage = () => {
                     align="center"
                     variant="h5"
                     sx={{color: 'text.primary', fontWeight: 500, mb: 2, textTransform: 'uppercase', px: 4}}>
-                    Our Mission
+                    Our vision
                 </Typography>
                 <Typography
                     align="center"
                     variant="body1"
                     sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                    AgroBrothers Will Give You Quick and continous Algorithms To Quench All Agricultural Stress Levels Quickly
+                    AgroBrothers Stands Out in several major SDG's Namely: (1) No poverty, (2) Zero Hunger (3) Economic Growth (4) Innovation ... As We engage in intense Activities to Oversee Better living
                 </Typography>
             </Container>
         </Box>
@@ -69,11 +69,10 @@ const AboutPage = () => {
                     <Box>
                         <Stack direction="column" spacing={2}>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                technology from Africa
+                                Local Remote Technology
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                We are producing Agric Technologies Here in Africa. So you can enjoy diverse African food straight
-                                from the confort of your home.
+                                As They are Made Locally in africa, They Are Affordable as well and simply defined
                             </Typography>
                         </Stack>
                     </Box>
@@ -89,8 +88,7 @@ const AboutPage = () => {
                     align="center"
                     variant="body1"
                     sx={{color: 'text.secondary', mb: 2, textTransform: 'uppercase'}}>
-                     More Sustainably with Africa's #1
-                    Agric system
+                   Africa's #1  Agric system: We Recall To Excellence and Are Up to The first
                 </Typography>
             </Container>
         </Box>
@@ -100,7 +98,7 @@ const AboutPage = () => {
             <Container maxWidth="xs">
                 <Typography align="center" variant="body1"
                             sx={{color: 'white', mb: 2, textTransform: 'uppercase'}}>
-                    #Zero food waste
+                    #Zero Hunger
                 </Typography>
             </Container>
         </Box>
@@ -127,7 +125,7 @@ const AboutPage = () => {
                                 NO Poverty
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                We are providing Tech from Africa, Thus Employing The People
+                                We are providing Tech from Africa, Hereby Employing The People
                             </Typography>
                         </Stack>
                     </Box>
@@ -141,12 +139,10 @@ const AboutPage = () => {
                     <Box>
                         <Stack direction="column" spacing={2}>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                Climate Change
+                                Innovation  And Sustainable Community
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                Eco-friendly boxes
-                                recyclable water for Irrigation
-                                Eco Friendly 
+                                Climate monitoring around Our Community Utilizing Water Through Recycling
                             </Typography>
                         </Stack>
                     </Box>
