@@ -23,7 +23,7 @@ const AboutPage = () => {
                                 About AgroBrothers
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', mb: 6}}>
-                            AgroBrothers is a company that Posesses The Automated Irrigation System that Eases doubt in crop yeild thereby increasing the societies economy and innovating change for mankind
+                            AgroBrothers is a company that Posesses The Automated Irrigation System that Deletes doubt in crop yeild thereby increasing the societies economy and innovating change for mankind
                             </Typography>
                         </Grid>
                     </Grid>
