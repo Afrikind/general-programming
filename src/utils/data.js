@@ -119,7 +119,7 @@ const TEAM = [
         image: bervylyn,
         name: 'Mohamed chamsydine',
         position: 'Team Business Analyst',
-        description: 'Mr Mohamed is a Muslim and Philosophist that has passion for discovering possibilities and inventions , He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
+        description: 'Mr Mohamed is a Business Expert and a Philosophist, He Provides the Business Framework for the team . He has produced the teams Business model and generated many ideas on the teams cost structure and benefits which puts the team ahead of other companies and attracts investors to us, that makes him profesional in the feild, He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
     },
     {
         image: raja,
@@ -131,7 +131,7 @@ const TEAM = [
         image: anita,
         name: 'Manuel Balinga',
         position: 'Team Data Analyst',
-        description: "Mr Balinga is A Robotics Expert, A Data Analyst And A Visionary, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining"
+        description: "Mr Balinga is A Robotics Expert, A Data Analyst And A Visionary, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining His Data skills Has approved many employment and predicted many gainful farmers both low and High income to achieve the teams vision"
     },
     ];
 
