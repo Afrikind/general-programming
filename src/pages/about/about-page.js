@@ -125,7 +125,7 @@ const AboutPage = () => {
                                 NO Poverty
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                We are providing Technolgy in Africa, Hereby Employing The People, We buy our component and enlist low income earners with a payplan through this increasing employment...
+                                We provide Technology in Africa, Employing The People, We buy our component and enlist low income earners with a payplan through this we are increasing employment...
                             </Typography>
                         </Stack>
                     </Box>
@@ -139,7 +139,7 @@ const AboutPage = () => {
                     <Box>
                         <Stack direction="column" spacing={2}>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                Innovation  And Sustainable Community
+                                Innovation 
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
                                  Utilizing Water Through Recycling
