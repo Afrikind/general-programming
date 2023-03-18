@@ -115,24 +115,29 @@ const TEAM = [
         position: 'Electrical Engineer',
         description: "Emmanuel Ileogben is a dedicated, renowned, expert electrical and electronics engineer. He has great interest in reducing societal electrical power usage by bringing sustainability and implementing new technologies to further advance power generation. He is the product lead for this project."
     },
-    {
+    
+     {
         image: bervylyn,
         name: 'Mohamed chamsydine',
         position: 'Computer Engineer',
         description: 'Mr Mohamed is a Computer Engineer, He Provides the Business Framework for the team . He has produced the teams Business model and generated many ideas on the teams cost structure and benefits which puts the team ahead of other companies and attracts investors to us, that makes him profesional in the feild, He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
     },
-    {
-        image: raja,
-        name: 'Anthony Madukaku',
-        position: 'Software Engineer',
-        description: "Anthony is a computer scientist, and the teams project lead"
-    },
+    
     {
         image: anita,
         name: 'Manuel Balinga',
         position: 'Robotics Engineer',
         description: "Mr Balinga is A Robotics Expert, A Data Analyst And A Visionary, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining His Data skills Has approved many employment and predicted many gainful farmers both low and High income to achieve the teams vision"
     },
+
+    
+    {
+        image: raja,
+        name: 'Anthony Madukaku',
+        position: 'Software Engineer',
+        description: "Anthony is a computer scientist, and the teams project lead"
+    },
+    
     ];
 
 const MEALS = [
