@@ -33,8 +33,8 @@ const HomePage = () => {
                                 Be a Brother, Feed Families
                             </Typography>
                             <Typography variant="body1" sx={{color: 'white', mb: 6}}>
-                                AgroBrothers is a fullStack Agric company that provides you with latest technology and
-                                easy guidelines for Progressive Agriculture...
+                                AgroBrothers is an Agric company that provides latest technology and
+                                easy guidelines for Agriculture...
                             </Typography>
                             {authData && (<Link to="/our-Services" style={{textDecoration: 'none'}}>
                                 <Button
@@ -138,11 +138,11 @@ const HomePage = () => {
                                 </Typography>
 
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    Convenient Control Process during Daily Farm practice
+                                    Convenient Control Process
                                 </Typography>
 
                                 <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                                    Comfort From Home that makes you feel unstoppable
+                                    Comfort From Home 
                                 </Typography>
                             </Stack>
                         </Box>
@@ -233,10 +233,10 @@ const HomePage = () => {
                                 About Us
                             </Typography>
                             <Typography variant="h5" sx={{color: 'text.primary'}}>
-                                A service of delivery If needed
+                                A service of delivery 
                             </Typography>
                             <Typography variant="body2" sx={{color: 'text.secondary'}}>
-                               AgroBrothers provide All with the Required Benefits of all irrigation Components and A user Friendly Software
+                               AgroBrothers provide the Required irrigation Components and A user Friendly Software
                             </Typography>
                             <Link to="/about-us" style={{textDecoration: 'none'}}>
                                 <Button
