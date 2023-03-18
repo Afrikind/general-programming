@@ -135,7 +135,7 @@ const TEAM = [
         image: anita,
         name: 'Manuel Balinga',
         position: 'Robotics Engineer',
-        description: "Mr Balinga is A Robotics Expert, A Data Analyst And A Visionary, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining His Data skills Has approved many employment and predicted many gainful farmers both low and High income to achieve the teams vision"
+        description: "Mr Balinga is A Robotics Expert, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining His Data skills Has approved many employment and predicted many gainful farmers both low and High income to achieve the teams vision"
     },
    
     ];
