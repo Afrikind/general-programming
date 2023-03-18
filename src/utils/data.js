@@ -13,9 +13,9 @@ import fufu from "./../assets/images/logo.png"
 import nigeria from "./../assets/images/2023-02-06.png"
 import plantain from "./../assets/images/apple-touch-icon.png"
 
-import fuhrer from "./../assets/images/fuhrer.jpeg"
+import fuhrer from "./../assets/images/balinga.jpeg"
 import bervylyn from "./../assets/images/Mohamed.jpg"
-import anita from "./../assets/images/balinga.jpeg"
+import anita from "./../assets/images/fuhrer.jpeg"
 import raja from "./../assets/images/raja.jpg"
 
 import awiwo from "./../assets/images/imajes.jpg";
@@ -111,26 +111,26 @@ const DIVERSITY = [
 const TEAM = [
     {
         image: fuhrer,
-        name: 'Anthony Madukaku',
-        position: 'Team Lead, Full Stack Developer',
-        description: "Mr Anthony Madukaku has 2 years of total experience with REACT JS for frontend, NodeJS and Express for Server-side applications, trained in HTML, CSS, JavaScript, Typescript, and Material Design. He developed a crowdfunding app using React Native and an E-commerce application that enabled vendors to sell their products. He also built a hospital management system that enabled hospitals to manage their patients"
+        name: 'Emmanuel Ileogben',
+        position: 'Electrical Engineer',
+        description: "Emmanuel Ileogben is a dedicated, renowned, expert electrical and electronics engineer. He has great interest in reducing societal electrical power usage by bringing sustainability and implementing new technologies to further advance power generation. He is the product lead for this project."
     },
     {
         image: bervylyn,
         name: 'Mohamed chamsydine',
-        position: 'Team Business Analyst',
-        description: 'Mr Mohamed is a Business Expert and a Philosophist, He Provides the Business Framework for the team . He has produced the teams Business model and generated many ideas on the teams cost structure and benefits which puts the team ahead of other companies and attracts investors to us, that makes him profesional in the feild, He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
+        position: 'Computer Engineer',
+        description: 'Mr Mohamed is a Computer Engineer, He Provides the Business Framework for the team . He has produced the teams Business model and generated many ideas on the teams cost structure and benefits which puts the team ahead of other companies and attracts investors to us, that makes him profesional in the feild, He is Also A Computer Engineer Who Hails From The Central Capital Of Niger'
     },
     {
         image: raja,
-        name: 'Emmanuel Ileogben',
-        position: 'Team Product Manager',
-        description: "Emmanuel Ileogben is a dedicated, renowned, expert electrical and electronics engineer. He has great interest in reducing societal electrical power usage by bringing sustainability and implementing new technologies to further advance power generation. He is the product lead for this project."
+        name: 'Anthony Madukaku',
+        position: 'Software Engineer',
+        description: "Anthony is a computer scientist, and the teams project lead"
     },
     {
         image: anita,
         name: 'Manuel Balinga',
-        position: 'Team Data Analyst',
+        position: 'Robotics Engineer',
         description: "Mr Balinga is A Robotics Expert, A Data Analyst And A Visionary, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining His Data skills Has approved many employment and predicted many gainful farmers both low and High income to achieve the teams vision"
     },
     ];
