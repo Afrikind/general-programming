@@ -13,10 +13,10 @@ import fufu from "./../assets/images/logo.png"
 import nigeria from "./../assets/images/2023-02-06.png"
 import plantain from "./../assets/images/apple-touch-icon.png"
 
-import fuhrer from "./../assets/images/balinga.jpeg"
+import fuhrer from "./../assets/images/raja.jpg"
 import bervylyn from "./../assets/images/Mohamed.jpg"
 import anita from "./../assets/images/fuhrer.jpeg"
-import raja from "./../assets/images/raja.jpg"
+import raja from "./../assets/images/balinga.jpeg"
 
 import awiwo from "./../assets/images/imajes.jpg";
 import bototie from "./../assets/images/bobotie-SAwebp.webp";
