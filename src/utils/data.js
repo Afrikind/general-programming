@@ -117,6 +117,14 @@ const TEAM = [
     },
     
      {
+        image: raja,
+        name: 'Anthony Madukaku',
+        position: 'Software Engineer',
+        description: "Anthony is a computer scientist, and the teams project lead"
+    },
+    
+    
+     {
         image: bervylyn,
         name: 'Mohamed chamsydine',
         position: 'Computer Engineer',
@@ -129,15 +137,7 @@ const TEAM = [
         position: 'Robotics Engineer',
         description: "Mr Balinga is A Robotics Expert, A Data Analyst And A Visionary, He Hails From The republic of Cameroon and Has Driven His Vision For A.i by supporting The Company With his HandsOn skills on data mining His Data skills Has approved many employment and predicted many gainful farmers both low and High income to achieve the teams vision"
     },
-
-    
-    {
-        image: raja,
-        name: 'Anthony Madukaku',
-        position: 'Software Engineer',
-        description: "Anthony is a computer scientist, and the teams project lead"
-    },
-    
+   
     ];
 
 const MEALS = [
