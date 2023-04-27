@@ -175,7 +175,7 @@ const MEALS = [
     }, {
         name: 'Mutakura',
         image: mutakura,
-        country: 'Zimbabwe'
+        country: 'South Africa'
     },
 
     {
