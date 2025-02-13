@@ -1,7 +1,7 @@
-import diverse from "./../assets/images/downloa.jpg";
-import healthy from "./../assets/images/donload.jpg";
+import diverse from "./../assets/images/download.jpg";
+import healthy from "./../assets/images/download.jpg";
 import chef from "./../assets/images/images.jpg";
-import family from "./../assets/images/imajes.jpg";
+import family from "./../assets/images/images.jpg";
 
 import step1 from "./../assets/images/step4-removebg-preview.png";
 import step2 from "./../assets/images/step2-removebg-preview.png";
@@ -81,13 +81,13 @@ const PROCESS = [
 
 const DIVERSITY = [
     {
-        image: zimbabwe,
-        name: 'Trash',
-        country: 'Random'
+        image: derere,
+        name: 'derere',
+        country: 'Zimbabwe'
     },
     {
         image: nigeria,
-        name: 'Rubbish',
+        name: 'NiceFood',
         country: 'Nigeria'
     },
     {
@@ -202,7 +202,7 @@ const MEALS = [
     },
     {
         image: nigeria,
-        name: 'Edwin Ayitey',
+        name: 'Black_Scientist_Madukaku',
         country: 'Nigeria'
     },
     {
